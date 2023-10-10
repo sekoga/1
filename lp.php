@@ -1,0 +1,5 @@
+<?
+$login = "ananas";
+$password = "password";
+
+?>
