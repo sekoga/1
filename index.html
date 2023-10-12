@@ -16,26 +16,63 @@
 <noscript><div><img src="https://mc.yandex.ru/watch/95195499" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
 <!DOCTYPE html>
-<html>  
-   <?
-echo "Введите логин: ";
-?><br><br>
-
-<form action="4.php" method type = "GET">
-    Логин: <input type= "text" style="-webkit-text-security: disc;" name ='login'>.<br><br>
-<? echo "Введите пароль: ";?><br><br>
-    Пароль: <input type="text" style="-webkit-text-security: disc;" name='password'><br><br>
-    <input type = "submit" value="Войти">
-</form>
-</html>
 <html>
-    <div style="background-color: aqua
-    ;"></div>
-</html>
-<html>  <div style .d1 {
-    width: 100px; 
-    height: 100px;
-    background: #83A7C9;
-    border-radius: 50%;
-}><div>
-    </html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name = "viewport" content="wigyh=device-width, initial-scaled">
+</head> 
+<body>
+    <div class="box">  
+        <div class ="head">
+            <p>Онлайн магазин</p>
+        </div>
+        <div class="example">
+            <h1> Пример списка</h1>
+            <ul>
+                <li>Text 1</li>
+                <li>Text 2</li>
+                <li>Text 3</li>
+                <li>Text 4</li>
+                <li>Text 5</li>
+
+            </ul>
+        </div>
+        <div class="a"></div>
+    </div>
+</body>
+
+<style>
+    .head{
+        width: 100vw;
+        height: 20%;
+        background-color: rgb(59, 49, 118);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 48px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .box{
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(170, 63, 57);
+    }
+    .example{
+        width: 100%;
+        height: 60%;
+    }
+    .a{
+        width: 100vw;
+        height: 20%;
+        position: absolute;
+        bottom: 0;
+        background-color: rgb(96, 151, 50);
+    }
+    li{
+        cursor: pointer;
+    }
+    li:hover{
+        color: chartreuse;
+    }
+</style>
